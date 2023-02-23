@@ -1,0 +1,59 @@
+header {
+  min-height: 120px;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  /* font-family: 'Zilla Slab', serif; */
+
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+}
+.menu__link {
+  margin-right: 40px;
+  color: #333333;
+text-decoration: none;
+ 
+}
+.menu__link:hover {
+  color: #FF4F9C;
+  cursor: pointer;
+}
+.menu > div:last-child {
+  margin-right: 0px;
+}
+.social {
+    display: flex;
+    
+}
+.social > div {
+    margin-right: 20px;
+}
+.social > div:last-child {
+    margin-right: 0;
+} 
+.social__fb:hover {
+    color: #FF4F9C;
+    cursor: pointer;
+}
+.social__twt:hover {
+    color: #FF4F9C;
+    cursor: pointer;
+}
+.social__inst:hover {
+    color: #FF4F9C;
+    cursor: pointer;
+}

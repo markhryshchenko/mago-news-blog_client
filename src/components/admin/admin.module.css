@@ -1,0 +1,100 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  padding: 30px 15px;
+}
+.center {
+  margin: 0 auto;
+}
+.content {
+  background-color: #fff;
+  width: 100%;
+  margin-right: 40px;
+}
+.head {
+  color: #041a57;
+  font-size: 27px;
+  line-height: 1.5em;
+  font-weight: 600;
+  text-align: center;
+}
+.body {
+  width: 100%;
+
+  line-height: 1.5em;
+  overflow: hidden;
+  padding: 10px 0;
+  margin: 15px 0;
+  border-top: 1px solid #eee;
+  word-wrap: break-word;
+  font-size: 15px;
+  font-weight: 400;
+  color: #595959;
+  text-align: center;
+}
+.body p {
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #000;
+  font-size: 18px;
+  line-height: 33px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.title::before {
+  content: "\2022";
+  color: #ff4f9c;
+  font-size: 21px;
+  margin-right: 5px;
+}
+.forms {
+  border: 1px solid #eee;
+  padding: 20px 0;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.form__addLabel {
+  margin: 20px 0;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.error::before {
+  display: inline;
+  content: "⚠ ";
+  font-size: 12px;
+}
+.grid__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 100%;
+}
+.card_title{
+  font-family: 'Zilla Slab', serif;
+  font-size: 16px;
+  color: #041a57;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: .8px;
+  padding-left: 10px;
+  margin: auto 0;
+ 
+}
+.card_title:hover {
+  color: #5ea5e3;
+}

@@ -1,0 +1,28 @@
+.main {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-bottom: 130px; 
+}
+.title {
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 130px 0 30px 0;
+  color: #041a57;
+  
+}
+.subtitle {
+    font-size: 25px;
+    margin: 0 0 20px;
+    color: #041a57;
+    font-weight: bold;
+}
+.content {
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.link {
+color:  #ff4f9c;  
+
+}

@@ -1,0 +1,21 @@
+.content {
+  min-height: 74vh;
+  width: 100%;
+}
+.main {
+  display: flex;
+  padding: 15px;
+}
+.head {
+  color: #041a57;
+  font-size: 27px;
+  line-height: 1.5em;
+  font-weight: 600;
+  text-align: center;
+}
+.form{
+    padding-right: 20px;
+}
+.error{
+    color: red;
+}

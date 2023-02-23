@@ -1,0 +1,104 @@
+.aside {
+  width: 355px;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+}
+.title {
+  color: #000;
+  font-size: 18px;
+  line-height: 33px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.title::before {
+  content: "\2022";
+  color: #ff4f9c;
+  font-size: 21px;
+  margin-right: 5px;
+}
+/* -----------=========social icons====---- */
+.social {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+.social > div {
+  height: 40px;
+  width: 65px;
+  color: #fff;
+  text-align: center;
+  padding-top: 8px;
+}
+.social > div:hover {
+  color: #000;
+  cursor: pointer;
+}
+.social__fb {
+  background-color: #3b5999;
+}
+.social__twt {
+  background-color: #00acee;
+}
+.social__lnk {
+  background-color: #0077b5;
+}
+.social__rddt {
+  background-color: #ff4500;
+}
+.social__whtspp {
+  background-color: #3fbb50;
+}
+.social__pntrs {
+  background-color: #ca2127;
+}
+.social__inst {
+  background: rgb(252, 176, 69);
+  background: linear-gradient(
+    45deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(131, 58, 180, 1) 100%
+  );
+}
+.social__ytb {
+  background-color: #f50000;
+}
+/* -------============posts widget====------ */
+
+/* ----------===============Labels=========------ */
+.labels {
+  display: block;
+  color: #041a57;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 17px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+.labels:hover {
+  color: #5ea5e3;
+}
+
+.row {
+  position: relative;
+}
+.counter {
+  position: relative;
+  float: right;
+  width: 16px;
+  height: 16px;
+  background-color: #ff4f9c;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 16px;
+}

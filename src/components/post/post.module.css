@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  background-color: #fff;
+  padding: 15px;
+}
+.content {
+  min-height: 74vh;
+  width: 100%;
+  background-color: #fff;
+  width: 100%;
+  margin-right: 40px;
+}
+.head {
+  color: #041a57;
+  font-size: 27px;
+  line-height: 1.5em;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.body {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5em;
+  overflow: hidden;
+  padding: 10px 0;
+  margin: 15px 0;
+  border-top: 1px solid #eee;
+  word-wrap: break-word;
+  font-size: 15px;
+  font-weight: 400;
+  color: #595959;
+}
+.body p {
+  margin-bottom: 30px;
+}
